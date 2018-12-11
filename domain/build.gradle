@@ -1,0 +1,20 @@
+apply plugin: 'kotlin'
+
+sourceCompatibility = "1.8"
+targetCompatibility = "1.8"
+
+configurations.all {
+    resolutionStrategy {
+        force deps.kotlin.stdlib
+    }
+}
+
+dependencies {
+    implementation deps.kotlin.stdlib
+    // RxJava
+    implementation deps.rxJava
+    // Unit Test
+    implementation deps.junit
+    implementation deps.mockito.core
+    implementation deps.mockito.kotlin
+}

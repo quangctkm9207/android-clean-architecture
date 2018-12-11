@@ -1,0 +1,16 @@
+.gradle
+/local.properties
+.DS_Store
+.idea/
+*iml
+gradle.properties
+bin/
+gen/
+out/
+build/
+ks.properties
+.classpath
+.project
+lint.xml
+/dist
+TODO
