@@ -49,6 +49,8 @@ dependencies {
     implementation deps.support.cardview
     implementation deps.support.constraintLayout
 
+    implementation deps.timber
+
     implementation deps.glide.runtime
 
     implementation deps.rxJava

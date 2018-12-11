@@ -15,7 +15,7 @@ def versions = ['kotlin'             : '1.2.51',
                 'rxJava'             : '2.1.4',
                 'rxAndroid'          : '2.0.1',
                 'glide'              : '4.3.1',
-                'timber'             : '4.5.1',
+                'timber'             : '4.7.1',
                 'junit'              : '4.12',
                 'mockito'            : '2.7.22',
                 'mockitoKotlin'      : '1.5.0',
@@ -91,5 +91,8 @@ def glide = [:]
 glide.runtime = "com.github.bumptech.glide:glide:$versions.glide"
 glide.compiler = "com.github.bumptech.glide:compiler:$versions.glide"
 deps.glide = glide
+
+def timber = "com.jakewharton.timber:timber:$versions.timber"
+deps.timber = timber
 
 ext.deps = deps
